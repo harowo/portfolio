@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rori</title>
+		<link rel="shortcut icon" href="./assets/images/1x/logo--dark.png" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	</head>
+
+	<body>
+		<main>
+			<aside class="sidebar" data-sidebar>
+				<div class="sidebar-info">
+					<figure class="avatar-box">
+						<img
+							src="https://avatars.githubusercontent.com/u/61258279?v=4"
+							alt="eri"
+							width="80"
+						/>
+					</figure>
+
+					<div class="info-content">
+						<h1 class="name" title="eri">Erine</h1>
+
+						<p class="title">Student</p>
+					</div>
+
+					<button class="info_more-btn" data-sidebar-btn>
+						<span>Show Contacts</span>
+
+						<ion-icon name="chevron-down"></ion-icon>
+					</button>
+				</div>
+
+				<div class="sidebar-info_more">
+					<div class="separator"></div>
+
+					<ul class="contacts-list">
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="mail-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Email</p>
+
+								<a href="mailto:contact@rirori.xyz" class="contact-link"
+									>contact@rirori.xyz</a
+								>
+							</div>
+						</li>
+
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="phone-portrait-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Phone</p>
+
+								<a href="tel:+6593885570" class="contact-link">+65 9388 5570</a>
+							</div>
+						</li>
+
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="calendar-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Birthday</p>
+
+								<time datetime="2002-12-11">11 December 2002</time>
+							</div>
+						</li>
+
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="location-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Location</p>
+
+								<address>Singapore</address>
+							</div>
+						</li>
+					</ul>
+
+					<div class="separator"></div>
+
+					<ul class="social-list">
+						<li class="social-item">
+							<a href="https://github.com/harowo" class="social-link">
+								<ion-icon name="logo-github"></ion-icon>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a
+								href="https://www.linkedin.com/in/yaohui-wang-0b636633b/"
+								class="social-link"
+							>
+								<ion-icon name="logo-linkedin"></ion-icon>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="#" class="social-link">
+								<ion-icon name="logo-instagram"></ion-icon>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<div class="main-content">
+				<nav class="navbar">
+					<ul class="navbar-list">
+						<li class="navbar-item">
+							<button class="navbar-link active" data-nav-link>About</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Resume</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Portfolio</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Contact</button>
+						</li>
+					</ul>
+				</nav>
+
+				<article class="about active" data-page="about">
+					<header>
+						<h2 class="h2 article-title">About me</h2>
+					</header>
+
+					<section class="about-text">
+						<p>
+							Hello World! I'm Erine, a student at Nanyang Polytechnic.<br />
+							I am a passionate and creative individual with a strong interest
+							in web development and design. I have a keen eye for detail and a
+							desire to create beautiful and functional websites. I am always
+							eager to learn new skills and technologies to enhance my abilities
+							and stay up-to-date with the latest trends in the industry.
+						</p>
+					</section>
+
+					<section class="service">
+						<h3 class="h3 service-title">What I'm doing</h3>
+
+						<ul class="service-list">
+							<li class="service-item">
+								<div class="service-icon-box">
+									<ion-icon name="finger-print-outline"></ion-icon>
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Cybersecurity</h4>
+
+									<p class="service-item-text">
+										Implementing robust security measures and conducting
+										vulnerability assessments to protect systems and data from
+										cyber threats.
+									</p>
+								</div>
+							</li>
+
+							<li class="service-item">
+								<div class="service-icon-box">
+									<ion-icon name="globe-outline"></ion-icon>
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Web development</h4>
+
+									<p class="service-item-text">
+										Building responsive and scalable web applications using
+										modern frameworks and best practices in web development.
+									</p>
+								</div>
+							</li>
+
+							<li class="service-item">
+								<div class="service-icon-box">
+									<ion-icon name="cloud-upload-outline"></ion-icon>
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Cloud Infrastructure</h4>
+
+									<p class="service-item-text">
+										Designing and implementing scalable cloud solutions using
+										AWS, Azure, and Google Cloud Platform services.
+									</p>
+								</div>
+							</li>
+
+							<li class="service-item">
+								<div class="service-icon-box">
+									<ion-icon name="layers-outline"></ion-icon>
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">UI/UX Design</h4>
+
+									<p class="service-item-text">
+										Crafting user-centered designs with attention to detail,
+										ensuring both aesthetics and functionality align with user
+										needs.
+									</p>
+								</div>
+							</li>
+						</ul>
+					</section>
+				</article>
+
+				<article class="resume" data-page="resume">
+					<header>
+						<h2 class="h2 article-title">Resume</h2>
+					</header>
+
+					<section class="timeline">
+						<div class="title-wrapper">
+							<div class="icon-box">
+								<ion-icon name="book-outline"></ion-icon>
+							</div>
+
+							<h3 class="h3">Education</h3>
+						</div>
+
+						<ol class="timeline-list">
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Nanyang Polytechnic</h4>
+
+								<span>2024-Present</span>
+
+								<p class="timeline-text">
+									Diploma in Infocomm and Media Engineering
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Dunman High School</h4>
+
+								<span>2020 — 2024</span>
+
+								<p class="timeline-text">A Level Computing</p>
+							</li>
+						</ol>
+					</section>
+
+					<section class="timeline">
+						<div class="title-wrapper">
+							<div class="icon-box">
+								<ion-icon name="book-outline"></ion-icon>
+							</div>
+
+							<h3 class="h3">Experience</h3>
+						</div>
+
+						<ol class="timeline-list">
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">BuildingBloCS Organiser</h4>
+
+								<span>2021-2022</span>
+
+								<p class="timeline-text">Web Master for BuildingBloCS.</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">
+									DigitalOcean Hacktoberfest
+								</h4>
+
+								<span>2020-2021</span>
+
+								<p class="timeline-text">
+									Participation in Hacktoberfest 2020 and 2021.
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Google Clouds</h4>
+
+								<span>2020</span>
+
+								<p class="timeline-text">#MajulahGCP</p>
+							</li>
+						</ol>
+					</section>
+
+					<section class="skill">
+						<h3 class="h3 skills-title">My skills</h3>
+
+						<ul class="skills-list content-card">
+							<li class="skills-item">
+								<div class="title-wrapper">
+									<h5 class="h5">UI/UX Design</h5>
+									<data value="80">80%</data>
+								</div>
+
+								<div class="skill-progress-bg">
+									<div class="skill-progress-fill" style="width: 80%"></div>
+								</div>
+							</li>
+
+							<li class="skills-item">
+								<div class="title-wrapper">
+									<h5 class="h5">Full Stack Web Development</h5>
+									<data value="60">60%</data>
+								</div>
+
+								<div class="skill-progress-bg">
+									<div class="skill-progress-fill" style="width: 60%"></div>
+								</div>
+							</li>
+
+							<li class="skills-item">
+								<div class="title-wrapper">
+									<h5 class="h5">Database</h5>
+									<data value="70">70%</data>
+								</div>
+
+								<div class="skill-progress-bg">
+									<div class="skill-progress-fill" style="width: 70%"></div>
+								</div>
+							</li>
+
+							<li class="skills-item">
+								<div class="title-wrapper">
+									<h5 class="h5">Adobe Illustrator</h5>
+									<data value="70">70%</data>
+								</div>
+
+								<div class="skill-progress-bg">
+									<div class="skill-progress-fill" style="width: 70%"></div>
+								</div>
+							</li>
+						</ul>
+					</section>
+				</article>
+
+				<article class="portfolio" data-page="portfolio">
+					<header>
+						<h2 class="h2 article-title">Portfolio</h2>
+					</header>
+
+					<section class="projects">
+						<ul class="filter-list">
+							<li class="filter-item">
+								<button class="active" data-filter-btn>All</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>UI/UX Design</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>Web Development</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>Others</button>
+							</li>
+						</ul>
+
+						<div class="filter-select-box">
+							<button class="filter-select" data-select>
+								<div class="select-value" data-select-value>
+									Select category
+								</div>
+
+								<div class="select-icon">
+									<ion-icon name="chevron-down"></ion-icon>
+								</div>
+							</button>
+
+							<ul class="select-list">
+								<li class="select-item">
+									<button data-select-item>All</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>UI/UX Design</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>Web Development</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>Others</button>
+								</li>
+							</ul>
+						</div>
+
+						<ul class="project-list">
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="uiux design"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="assets/images/1x/proj__ecommerce.png"
+											alt="ecommerce"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">E-Commerce Website</h3>
+
+									<p class="project-category">UI/UX Design</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="ui/ux design"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./assets/images/1x/proj__poster.png"
+											alt="poster"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Promotional Advertising Design</h3>
+
+									<p class="project-category">UI/UX Design</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="others"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./assets/images/1x/proj__discordbot.png"
+											alt="discord bot"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Discord Bot</h3>
+
+									<p class="project-category">Others</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="web development"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./assets/images/1x/icon__proj__numcaptcha.png"
+											alt="numCaptcha"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">numCaptcha</h3>
+
+									<p class="project-category">Web Development</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="ui/ux design"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./assets/images/1x/proj__webrepo.png"
+											alt="Web Template Repo"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Web Template Repo</h3>
+
+									<p class="project-category">UI/UX design</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="others"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./assets/images/1x/icon__proj__vcxtension.png"
+											alt="VCXtensions"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">VCXtensions</h3>
+
+									<p class="project-category">Others</p>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</article>
+
+				<article class="contact" data-page="contact">
+					<header>
+						<h2 class="h2 article-title">Contact</h2>
+					</header>
+
+					<section class="mapbox" data-mapbox>
+						<figure>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6357831719753!2d103.84625999999999!3d1.3795977999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16e96db0a1ab%3A0x3a8094d386e0b00f!2sNanyang%20Polytechnic!5e0!3m2!1sen!2ssg!4v1620123456789!5m2!1sen!2ssg"
+								width="400"
+								height="300"
+								loading="lazy"
+							></iframe>
+						</figure>
+					</section>
+
+					<section class="contact-form">
+						<h3 class="h3 form-title">Contact Form</h3>
+
+						<form action="#" class="form" data-form>
+							<div class="input-wrapper">
+								<input
+									id="fullname"
+									type="text"
+									name="fullname"
+									class="form-input"
+									placeholder="Full name"
+									required
+									data-form-input
+								/>
+
+								<input
+									id="email"
+									type="email"
+									name="email"
+									class="form-input"
+									placeholder="Email address"
+									required
+									data-form-input
+								/>
+							</div>
+
+							<textarea
+								id="message"
+								name="message"
+								class="form-input"
+								placeholder="Your Message"
+								required
+								data-form-input
+							></textarea>
+
+							<button
+								class="form-btn"
+								type="submit"
+								id="contact-submit-btn"
+								data-form-btn
+							>
+								<ion-icon name="paper-plane"></ion-icon>
+								<span>Send Message</span>
+							</button>
+						</form>
+					</section>
+				</article>
+			</div>
+		</main>
+
+		<script src="./assets/js/script.js"></script>
+		<script src="./assets/js/contact.js"></script>
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+	</body>
+</html>
